@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){const e=document.getElementById("content"),t=document.createElement("div"),n=document.createElement("div");t.id="headline",t.textContent="Epicurea: Where Flavor Meets Innovation",n.id="copy",n.textContent="Discover the Magic",e.appendChild(t),e.appendChild(n)}()})();

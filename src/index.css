@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+#headline {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#headline, #copy {
+    font-size: x-large;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* margin-top: 45%;
+    padding: 50px; */
+    height: 5rem;
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
