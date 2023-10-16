@@ -1,4 +1,4 @@
-export function initPageLoad() {
+export function menuTab() {
     const containerDiv = document.getElementById('content')
     //create the divs and tabs
     const headline = document.createElement('div');
@@ -7,8 +7,6 @@ export function initPageLoad() {
     const home = document.createElement('button');
     const menu = document.createElement('button');
     const contact = document.createElement('button');
-    const chefCont = document.createElement('div');
-    const chef = document.createElement('img');
 
     //add ID and text to the divs
     headline.id = 'headline';
@@ -23,8 +21,6 @@ export function initPageLoad() {
     contact.textContent = 'Contact'
     contact.classList = 'buttonNav';
     tabDiv.id = 'tabDiv'
-    chefCont.id = 'chef';
-    chef.src = './img/chef.png';
 
     //append the divs to the content div
     containerDiv.appendChild(headline);
@@ -32,7 +28,5 @@ export function initPageLoad() {
     tabDiv.appendChild(home);
     tabDiv.appendChild(menu);
     tabDiv.appendChild(contact);
-    containerDiv.appendChild(chefCont);
-    chefCont.appendChild(chef);
     containerDiv.appendChild(copy);
 }
