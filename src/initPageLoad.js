@@ -19,9 +19,11 @@ export function initPageLoad() {
     home.classList.add('active');
     home.textContent = 'Home'
     menu.classList = 'buttonNav';
+    menu.classList.remove('active');
     menu.textContent = 'Menu';
     contact.textContent = 'Contact'
     contact.classList = 'buttonNav';
+    contact.classList.remove('active');
     tabDiv.id = 'tabDiv'
     chefCont.id = 'chef';
     chef.src = './img/chef.png';

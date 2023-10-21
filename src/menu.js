@@ -14,9 +14,9 @@ export function menuTab() {
     copy.id = 'copy';
     copy.textContent = 'Discover the Magic';
     home.classList = 'buttonNav';
-    home.classList.add('active');
     home.textContent = 'Home'
     menu.classList = 'buttonNav';
+    menu.classList.add('active');
     menu.textContent = 'Menu';
     contact.textContent = 'Contact'
     contact.classList = 'buttonNav';

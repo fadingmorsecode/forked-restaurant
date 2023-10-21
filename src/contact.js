@@ -14,12 +14,14 @@ export function contactTab() {
     copy.id = 'copy';
     copy.textContent = 'Discover the Magic';
     home.classList = 'buttonNav';
-    home.classList.add('active');
+    home.classList.remove('active');
     home.textContent = 'Home'
     menu.classList = 'buttonNav';
+    menu.classList.remove('active');
     menu.textContent = 'Menu';
     contact.textContent = 'Contact'
     contact.classList = 'buttonNav';
+    contact.classList.add('active');
     tabDiv.id = 'tabDiv'
 
     //append the divs to the content div
