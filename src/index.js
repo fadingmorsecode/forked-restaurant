@@ -3,7 +3,7 @@ import { menuTab } from './menu.js';
 import { contactTab } from './contact.js';
 initPageLoad();
 
-const contentDiv = getElementById('content');
+const contentDiv = document.getElementById('content');
 
 document.getElementById('home').addEventListener('click', () => {
     contentDiv.innerHTML = '';

@@ -17,7 +17,7 @@ export function initPageLoad() {
     copy.textContent = 'Discover the Magic';
     home.classList = 'buttonNav';
     home.classList.add('active');
-    home.textContent = 'Home'
+    home.textContent = 'Home';
     menu.classList = 'buttonNav';
     menu.classList.remove('active');
     menu.textContent = 'Menu';
@@ -27,7 +27,10 @@ export function initPageLoad() {
     tabDiv.id = 'tabDiv'
     chefCont.id = 'chef';
     chef.src = './img/chef.png';
-
+    home.id = 'home';
+    menu.id = 'menu';
+    contact.id = 'contact';
+    
     //append the divs to the content div
     containerDiv.appendChild(headline);
     headline.appendChild(tabDiv);

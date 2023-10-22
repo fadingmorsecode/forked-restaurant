@@ -21,6 +21,9 @@ export function menuTab() {
     contact.textContent = 'Contact'
     contact.classList = 'buttonNav';
     tabDiv.id = 'tabDiv'
+    home.id = 'home';
+    menu.id = 'menu';
+    contact.id = 'contact';
 
     //append the divs to the content div
     containerDiv.appendChild(headline);
